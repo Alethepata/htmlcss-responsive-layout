@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --blue:#0084fd;
+}
+.debug{
+    border: 1px solid black;
+}
+.debug-topbar{
+    width: 100%;
+    height: 80px;
+}
+.container{
+    width:75%;
+    margin:0 auto;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+/* HEADER */
+
+.topbar{
+    background-color:var(--blue) ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+/* /HEADER */
+
+
+/* MAIN */
+
+/* /MAIN */
+
+
+/* FOOTER */
+
+/* /FOOTER */
