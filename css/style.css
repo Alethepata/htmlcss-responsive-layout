@@ -24,7 +24,9 @@
 
 :root{
     --blue:#0084fd;
-    --lightblue:#b5ddff
+    --lightblue:#b5ddff;
+    --violet:#9792e4;
+    --white:#ffffff;
 }
 .container{
     width:70%;
@@ -43,6 +45,9 @@
 }
 .space-between{
     justify-content: space-between;
+}
+.border-radius{
+    border-radius: 15px;
 }
 
 /* HEADER */
@@ -66,10 +71,21 @@ section:first-child .container:first-child .row:first-child{
 }
 section:first-child .row{
     background-color: var(--lightblue);
-    border-radius: 10px;
     margin-bottom:20px;  
     flex-direction: column ;
     border: 1px solid red;
+}
+section:nth-child(2){
+    background-color: var(--violet);    
+    margin-top: 30px;
+}
+section:nth-child(2) .row{
+    margin: 40px 0;
+
+}
+section:nth-child(2) .row:nth-child(2){
+    background-color:var(--white) ;
+
 }
 
 /* /MAIN */
