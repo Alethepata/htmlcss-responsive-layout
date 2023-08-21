@@ -18,6 +18,11 @@
 .debug.debug-col{
     height: 250px;
 }
+.debug.debug-col-circle{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
 
 
 
@@ -42,6 +47,9 @@
 }
 .flex{
     display: flex;
+}
+.direction-column{
+    flex-direction: column ;
 }
 .space-between{
     justify-content: space-between;
@@ -72,7 +80,6 @@ section:first-child .container:first-child .row:first-child{
 section:first-child .row{
     background-color: var(--lightblue);
     margin-bottom:20px;  
-    flex-direction: column ;
     border: 1px solid red;
 }
 section:nth-child(2){
@@ -86,6 +93,13 @@ section:nth-child(2) .row{
 section:nth-child(2) .row:nth-child(2){
     background-color:var(--white) ;
 
+}
+section:nth-child(3) .row:nth-child(2){
+    background-color:var(--violet) ;
+
+}
+section:nth-child(3) .row:nth-child(2) .col:first-child{
+    margin-top: 20px;
 }
 
 /* /MAIN */
