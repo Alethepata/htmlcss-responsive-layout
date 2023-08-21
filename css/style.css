@@ -23,6 +23,9 @@
     width: 100px;
     height: 100px;
 }
+.debug.debug-small-col{
+    height: 150px;
+}
 
 
 
@@ -106,13 +109,24 @@ section:nth-child(2) .row:nth-child(2){
 
 section:nth-child(3) .row:not(.row:first-child){
     background-color:var(--violet) ;
-    margin-top:30px ;
+    margin:30px 0 ;
 
 }
 section:nth-child(3) .row:not(.row:first-child) .col:first-child{
     margin: 50px;
 }
 
+/* 4°SECTION */
+
+section:nth-child(4){
+    background-color:var(--violet) ;
+
+}
+section:nth-child(4) .row:not(.row:first-child){
+    background-color:var(--white) ;
+    margin:30px 0 ;
+
+}
 
 /* /MAIN */
 
