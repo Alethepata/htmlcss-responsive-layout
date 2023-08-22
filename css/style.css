@@ -6,6 +6,7 @@
 body{
     font-family: 'PT Sans';
     line-height: 25px;
+    font-size: 18px;
 }
 
 .debug{
@@ -197,6 +198,34 @@ section:nth-child(2) .link i {
 
 
 /* 3° SECTION */
+
+section:nth-child(3){
+    text-align: center;
+    margin: 50px 0;
+
+}
+section:nth-child(3) h1{
+    color: var(--violet);
+    margin: 30px 0;
+}
+section:nth-child(3) .card{
+    color: var(--white);
+    margin-bottom: 40px;
+}
+section:nth-child(3) .card p::before{
+    content: '\275D';
+    font-size: 30px;
+}
+section:nth-child(3) .card p::after{
+    content: '\275E';
+    font-size: 30px;
+}
+section:nth-child(3) .card p{
+    margin-bottom: 10px;
+}
+section:nth-child(3) .card span{
+    font-weight: 700;
+}
 
 section:nth-child(3) .row:not(.row:first-child){
     background-color:var(--violet) ;
