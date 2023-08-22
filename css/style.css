@@ -56,8 +56,15 @@ a {
     text-align: center;
 }
 
-main img{
+main section:first-child img,
+main section:nth-child(2) img{
     height: 250px;
+}
+main section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .flex{
     display: flex;
