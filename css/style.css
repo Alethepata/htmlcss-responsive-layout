@@ -300,11 +300,25 @@ section:nth-child(5) .link{
 
 section:nth-child(6){
     background-color:var(--violet) ;
+    text-align: center;
+    color: var(--white);
+    padding-top: 50px;
+}
+section:nth-child(6) span{
+    font-size: 14px;
+}
+section:nth-child(6) h1{
+    color: rgb(248, 219, 4);
+    margin: 30px 0;
+}
+section:nth-child(6) h1,
+section:nth-child(6) h2,
+section:nth-child(6) .link{
+    margin: 30px 0;
 }
 section:nth-child(6) .link{
     width: 200px;
     background-color: var(--white);
-    color: var(--violet);
 }
 section:nth-child(6) .link a{
     color: var(--violet);
