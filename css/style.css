@@ -54,13 +54,14 @@ a {
 .link{
     padding: 5px;
     text-align: center;
+    border-radius:40px ;
 }
 
 main section:first-child img,
 main section:nth-child(2) img{
     height: 250px;
 }
-main section img{
+main section:nth-child(3)  img{
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -130,7 +131,6 @@ section:first-child p{
 section:first-child .link{
     width: 200px; 
     background-color: var(--blue);
-    border-radius:40px ;
 }
 section:first-child .row:not(.row:first-child){
     text-align: center;
@@ -203,6 +203,11 @@ section:nth-child(4){
 section:nth-child(4) .cards{
     background-color:var(--white) ;
     margin:30px 0 ;
+
+}
+section:nth-child(4) .cards .link{
+    background-color:var(--violet) ;
+    width: 100px;
 
 }
 
