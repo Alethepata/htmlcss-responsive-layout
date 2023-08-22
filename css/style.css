@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'PT Sans';
+}
 
 
 .debug{
@@ -65,6 +68,16 @@
     position: fixed;
     z-index: 999;
 }
+.topbar .row{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar img{
+    padding: 10px;
+}
+
+
 
 /* /HEADER */
 
