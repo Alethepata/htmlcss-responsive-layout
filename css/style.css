@@ -224,7 +224,14 @@ section:nth-child(5) .link{
 
 section:nth-child(6){
     background-color:var(--violet) ;
-
+}
+section:nth-child(6) .link{
+    width: 200px;
+    background-color: var(--white);
+    color: var(--violet);
+}
+section:nth-child(6) .link a{
+    color: var(--violet);
 }
 
 
