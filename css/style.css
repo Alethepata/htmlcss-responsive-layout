@@ -105,9 +105,7 @@ main{
 section:first-child {
     margin:30px 0 20px 0;  
 }
-section:first-child .link{
-    width: 200px; 
-}
+
 section:first-child .row{
     background-color: var(--lightblue);
     margin-bottom:20px;  
@@ -123,9 +121,16 @@ section:first-child p{
     color: var(--gray) ;
     margin: 20px 0 30px 0;
 }
+section:first-child .link{
+    width: 200px; 
+}
 section:first-child img{
-    height: 250px;
-    
+    height: 250px;  
+}
+section:first-child .row:not(.row:first-child) i {
+    color: var(--blue);
+    /* dare grandezza i */
+      
 }
 
 /* 2° SECTION */
