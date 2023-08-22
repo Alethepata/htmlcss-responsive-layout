@@ -242,11 +242,29 @@ section:nth-child(4){
     background-color:var(--violet) ;
 
 }
-section:nth-child(4) .cards{
-    background-color:var(--white) ;
-    margin:30px 0 ;
+section:nth-child(4) .row:first-child h1{
+    text-align: center;
+    margin-top: 50px;
+    color: var(--white);
 
 }
+section:nth-child(4) .card{
+    padding: 30px 20px;
+    margin: 20px 0;
+    background-color:var(--white);
+
+}
+section:nth-child(4) .card h2{
+    margin-bottom: 30px;
+    color: var(--violet);
+
+}
+section:nth-child(4) .card p{
+    margin-bottom: 20px;
+    color: var(--gray);
+
+}
+
 section:nth-child(4) .cards .link{
     background-color:var(--violet) ;
     width: 100px;
