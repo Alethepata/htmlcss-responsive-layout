@@ -61,7 +61,8 @@ main section:first-child img,
 main section:nth-child(2) img{
     height: 250px;
 }
-main section:nth-child(3)  img{
+main section:nth-child(3)  img,
+main section:nth-child(5)  img{
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -214,6 +215,10 @@ section:nth-child(4) .cards .link{
 /* 5° SECTION */
 section:nth-child(5) .row{
     margin: 30px 0;
+}
+section:nth-child(5) .link{
+    width: 200px;
+    background-color: var(--violet);
 }
 /* 6° SECTION */
 
