@@ -43,9 +43,12 @@ body{
     --gray: #62778b;
 }
 .container{
-    margin:0 auto;
-    border: 1px solid green;    
+    margin:0 auto;    
     max-width: 280px;
+
+}
+section{
+        padding: 50px 0;
 }
 header a,
 main a {
@@ -150,7 +153,6 @@ section:first-child .fa-solid{
 
 section:nth-child(2){
     background-color: var(--violet);    
-    margin-top: 30px;
 }
 
 section:nth-child(2) .row{
@@ -201,7 +203,6 @@ section:nth-child(2) .link i {
 
 section:nth-child(3){
     text-align: center;
-    margin: 50px 0;
 
 }
 section:nth-child(3) h1{
@@ -272,8 +273,7 @@ section:nth-child(4) .cards .link{
 }
 
 /* 5° SECTION */
-section:nth-child(5){
-    margin: 50px 0;    
+section:nth-child(5){    
     line-height: 40px;
 }
 section:nth-child(5) .row{
@@ -302,7 +302,6 @@ section:nth-child(6){
     background-color:var(--violet) ;
     text-align: center;
     color: var(--white);
-    padding-top: 50px;
 }
 section:nth-child(6) span{
     font-size: 14px;
@@ -331,6 +330,14 @@ section:nth-child(6) .link a{
 
 footer{
     background-color:var(--black);
+    color: var(--white);
+    font-size: 16px;
+}
+footer p{
+    padding: 50px 0;
+}
+footer a{
+    color: var(--violet);
 }
 
 /* /FOOTER */
