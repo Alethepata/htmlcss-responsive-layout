@@ -145,6 +145,8 @@ footer{
 
 /* /FOOTER */
 
+
+
 @media screen and (min-width:769px) {
     .container{
         max-width: 700px;
@@ -181,5 +183,23 @@ footer{
         display: flex;
     }
 
+
+}
+
+@media screen and (min-width:1401px){
+    .container{
+        width: 1200px;
+    }
+    section:nth-child(2) .container {
+        display: flex;
+
+    }
+    section:nth-child(2) .row{
+        width: 50%;
+
+    }
+    section:nth-child(4) .card{
+        width: calc(100% / 3);
+    }
 
 }
