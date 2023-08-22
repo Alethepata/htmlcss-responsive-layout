@@ -8,7 +8,6 @@ body{
     line-height: 25px;
 }
 
-
 .debug{
     border: 2px solid black;
 }
@@ -91,7 +90,6 @@ a {
 }
 
 
-
 /* /HEADER */
 
 
@@ -127,12 +125,17 @@ section:first-child .link{
 section:first-child img{
     height: 250px;  
 }
-section:first-child .row:not(.row:first-child) i {
-    color: var(--blue);
-    /* dare grandezza i */
-      
-}
+section:first-child .row:not(.row:first-child){
+    text-align: center;
 
+}
+section:first-child .row:not(.row:first-child) i {
+    color: var(--blue);  
+    margin: 10px 0; 
+}
+section:first-child .fa-solid{
+    font-size: 50px;
+}
 /* 2° SECTION */
 
 section:nth-child(2){
@@ -147,6 +150,7 @@ section:nth-child(2) .row:nth-child(2){
     background-color:var(--white) ;
 
 }
+
 
 /* 3° SECTION */
 
@@ -234,7 +238,7 @@ footer{
 
 }
 
-@media screen and (min-width:1401px){
+@media screen and (min-width:1201px){
     .container{
         width: 1200px;
     }
