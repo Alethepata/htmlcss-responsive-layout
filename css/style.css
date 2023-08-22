@@ -52,12 +52,13 @@ a {
     color: var(--white);
 }
 .link{
-    background-color: var(--blue);
-    border-radius:40px ;
     padding: 5px;
     text-align: center;
 }
 
+main img{
+    height: 250px;
+}
 .flex{
     display: flex;
 }
@@ -121,9 +122,8 @@ section:first-child p{
 }
 section:first-child .link{
     width: 200px; 
-}
-section:first-child img{
-    height: 250px;  
+    background-color: var(--blue);
+    border-radius:40px ;
 }
 section:first-child .row:not(.row:first-child){
     text-align: center;
@@ -142,13 +142,37 @@ section:nth-child(2){
     background-color: var(--violet);    
     margin-top: 30px;
 }
+
 section:nth-child(2) .row{
     margin: 40px 0;
 
 }
+section:nth-child(2) .row:first-child{
+    color: var(--white);
+
+}
+section:nth-child(2) .row:first-child h2{
+    margin: 40px;
+
+}
+section:nth-child(2) .row:last-child h2{
+    margin: 15px;
+
+}
 section:nth-child(2) .row:nth-child(2){
     background-color:var(--white) ;
+    padding: 25px;
 
+}
+section:nth-child(2) .link{
+    width: 40px; 
+    height: 40px;
+    background-color: var(--violet);
+    border-radius:50% ;
+    margin: 50px;
+}
+section:nth-child(2) .link i {
+    color: var(--black);
 }
 
 
