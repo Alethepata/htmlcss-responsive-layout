@@ -346,10 +346,12 @@ footer a{
 
 @media screen and (min-width:769px) {
     .container{
-        max-width: 700px;       
-        flex-wrap: wrap;        
+        max-width: 700px;              
         justify-content: space-between;
         flex-direction: row;
+    }
+    section:first-child .container{
+        flex-wrap: wrap;
     }
     section:first-child .card{
         width:30%; 
@@ -388,6 +390,11 @@ footer a{
     }
     section:nth-child(5) .container{
         display: flex;
+
+    }
+    section:nth-child(5) .text{
+        margin-right: 15px ;
+
     }
 
 
