@@ -373,6 +373,9 @@ footer a{
     }
     section:nth-child(3) .card{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
     section:nth-child(4) .cards{
         display: flex;
