@@ -83,7 +83,7 @@ main section:nth-child(5)  img{
     justify-content: space-between;
 }
 .border-radius{
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 /* HEADER */
@@ -411,11 +411,25 @@ footer a{
     section:nth-child(2) .container {
         display: flex;
 
-    }
+    }    
     section:nth-child(2) .row{
         width: 50%;
 
     }
+    section:nth-child(2) .row img{
+        height: 300px;
+
+    }
+    section:nth-child(2) .row:last-child{
+        margin: 180px 0 0 50px;
+
+    }
+    section:nth-child(2) .row:first-child h2{
+        font-size: 40px;
+        
+
+    }
+
     section:nth-child(4) .card{
         width:30%;
     }
