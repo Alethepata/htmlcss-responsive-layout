@@ -56,10 +56,15 @@ main a {
     font-weight: 700;
     color: var(--white);
 }
-.link{
-    padding: 5px;
+
+.link a{
+    padding: 10px;
     text-align: center;
     border-radius:40px ;
+
+}
+li{
+    list-style: none;
 }
 
 main section:first-child img,
@@ -103,6 +108,23 @@ main section:nth-child(5)  img{
 .topbar img{
     padding: 10px;
 }
+.topbar ul{
+justify-content: space-around;
+}
+.topbar .menu li{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 400;    
+}
+
+.topbar .menu .link a{
+    color: var(--black);    
+    background-color:var(--white);
+    height: 20%;
+}
+.topbar .menu{
+    display: none;
+}
 
 
 /* /HEADER */
@@ -134,8 +156,7 @@ section:first-child p{
     color: var(--gray) ;
     margin: 20px 0 30px 0;
 }
-section:first-child .link{
-    width: 200px; 
+section:first-child .link a{
     background-color: var(--blue);
 }
 section:first-child .row:not(.row:first-child){
@@ -186,9 +207,11 @@ section:nth-child(2) .row:last-child .col{
 
 }
 
-section:nth-child(2) .link{
-    width: 40px; 
-    height: 40px;
+section:nth-child(2) .link {
+    margin: 50px 0;
+
+}
+section:nth-child(2) .link a{
     background-color: var(--violet);
     border-radius:50% ;
     margin: 50px 0;
@@ -266,9 +289,12 @@ section:nth-child(4) .card p{
 
 }
 
-section:nth-child(4) .cards .link{
+section:nth-child(4) .cards .link {
+    margin: 20px 0 ;
+
+}
+section:nth-child(4) .cards .link a{
     background-color:var(--violet) ;
-    width: 100px;
 
 }
 
@@ -279,6 +305,7 @@ section:nth-child(5){
 section:nth-child(5) .row{
     margin: 30px 0;
 }
+
 section:nth-child(5) h1{
     color: var(--violet);
 }
@@ -291,9 +318,7 @@ section:nth-child(5) .text p:first-child{
     margin-bottom: 50px;
     
 }
-section:nth-child(5) .link{
-    margin: 25px 0;
-    width: 200px;
+section:nth-child(5) .link a{
     background-color: var(--violet);
 }
 /* 6° SECTION */
@@ -315,8 +340,7 @@ section:nth-child(6) h2,
 section:nth-child(6) .link{
     margin: 30px 0;
 }
-section:nth-child(6) .link{
-    width: 200px;
+section:nth-child(6) .link a{
     background-color: var(--white);
 }
 section:nth-child(6) .link a{
@@ -408,6 +432,12 @@ footer a{
     .container{
         width: 1200px;
     }
+    .topbar .col i{
+        display: none;
+    }
+    .topbar .menu{
+        display: flex;
+    }  
     section:nth-child(2) .container {
         display: flex;
 
